@@ -33,7 +33,7 @@ IAM Role Permissions (example policy):
     }
   ]
 }
-'''
+```
 
 # C. Configure S3 Bucket Notification
 - Go to your S3 bucket.
