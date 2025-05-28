@@ -15,6 +15,7 @@ Confirm the subscription by clicking the link sent to your email.
 
 IAM Role Permissions (example policy):
 
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
