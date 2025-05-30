@@ -8,6 +8,17 @@ def lambda_handler(event, context):
         print(bucket.name)
         bucket_names.append(bucket.name)
     return {
-        'statusCode': 200,
+        'statusCode': 200,                           
         'body': json.dumps(bucket_names)
     }
+
+
+# output
+Status: Succeeded
+Test Event Name: Test
+
+Response:
+{
+  "statusCode": 200,
+  "body": "[\"mkldnjkmdlcmklnjln\", \"newawwsbucket266666666\"]"
+}
